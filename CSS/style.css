@@ -17,3 +17,75 @@
         --grad2: #F41818;
     }
 
+    body {
+        background-color: var(--cor2);
+    }
+
+    .sidenav {
+        height: 100%; 
+        width: 0; 
+        position: fixed; 
+        z-index: 1; 
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden; 
+        padding-top: 60px; 
+        transition: 0.5s; 
+      }
+      
+      /* Os links do menu de navegação */
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 1.2em;
+        color: white;
+        display: block;
+        transition: 0.3s;
+      }
+
+      #icone-menu {
+        color: white;
+        background-color: var(--cor1);
+        padding: 10px;
+        margin: 20px 20px;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        border-radius: 10px;
+        width: 50px;
+        text-align: center;
+      }
+      
+      /* Ao passar o mouse sobre os links de navegação, altere a cor deles */
+      .sidenav a:hover {
+        color: var(--cor1);
+      }
+      
+      /* Posicione e estilize o botão Fechar (canto superior direito) */
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      /* Conteúdo da página de estilo - use isso se quiser empurrar o conteúdo da página para a direita ao abrir a navegação lateral */
+      #main {
+        transition: margin-left .5s;
+        padding: 20px;
+      }
+      
+      /* Em telas menores, onde a altura é inferior a 450px, altere o estilo da navegação lateral (menos preenchimento e tamanho de fonte menor) */
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+
+      header {
+        width: 100%;
+        height: 500px;
+        background-color: var(--cor4);
+      }
+
