@@ -44,6 +44,26 @@
         transition: 0.3s;
       }
 
+      .sidenav h5 {
+        color: white;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 15px;
+        background-image: linear-gradient(to top, var(--grad1), var(--grad2));
+        font-size: 1.4em;
+      }
+
+      .sidenav #linha {
+        background-color: var(--cor4);
+        height: 2px;
+        margin-bottom: 10px;
+      }
+
+      .sidenav h5:hover {
+        background-color: var(--cor1);
+        transition: 0.3s;
+      }
+
       #icone-menu {
         color: white;
         background-color: var(--cor1);
@@ -51,7 +71,7 @@
         margin: 20px 20px;
         cursor: pointer;
         position: absolute;
-        right: 0;
+        right: 15px;
         border-radius: 10px;
         width: 50px;
         text-align: center;
@@ -60,6 +80,7 @@
       /* Ao passar o mouse sobre os links de navegação, altere a cor deles */
       .sidenav a:hover {
         color: var(--cor1);
+        margin-left: 5px;
       }
       
       /* Posicione e estilize o botão Fechar (canto superior direito) */
@@ -86,6 +107,15 @@
       header {
         width: 100%;
         height: 500px;
-        background-color: var(--cor4);
+        border-bottom: solid 1px var(--cor1);
+      }
+
+      .container {
+        margin: auto 60px;
+        height: 100%;
+      }
+
+      .banner {
+        padding: 100px 25px;
       }
 
