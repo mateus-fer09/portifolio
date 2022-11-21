@@ -120,5 +120,7 @@
         margin: auto;
         color: white;
         text-align: justify;
+        font-size: 1em;
+        padding: 0px;
       }
 }
