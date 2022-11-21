@@ -4,7 +4,7 @@
     *{
         margin: 0;
         padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Maven Pro', sans-serif;
     }
 
     :root {
@@ -16,6 +16,8 @@
     
         --grad1: #231F20;
         --grad2: #F41818;
+
+        --font-especial: 'Maven Pro', sans-serif;
     }
 
     .sidenav {
@@ -64,25 +66,26 @@
     .infor h1 {
         font-size: 2em;
         padding: 10px;
-        color: var(--cor1);
         width: 100%;
         text-align: center;
-        text-shadow: 0.5px 0.5px 1px white;
+        color: white;
+        text-shadow: 1px 1px 1px #F41818;
       }
 
       .infor span {
         padding: 10px;
-        color: white;
+        color: #F41818;
         font-size: 1.6em;
         width: 100%;
         text-align: center;
+        background-color: transparent;
       }
 
       .infor h3 {
         padding: 10px;
-        color: var(--cor1);
         font-size: 1.4em;
-        text-shadow: 0.5px 0.5px 1px white;
+        color: white;
+        text-shadow: 1px 1px 1px #F41818;
       }
 
       .botao {
@@ -116,6 +119,6 @@
         width: 100%;
         margin: auto;
         color: white;
-        text-align: center;
+        text-align: justify;
       }
 }
