@@ -25,6 +25,8 @@
     #icone-menu {
         position: absolute;
         right: 0;
+        font-weight: 300;
+        padding: 10px;
     }
 
     .sidenav h5 {
@@ -37,6 +39,11 @@
         height: 100%;
         display: flex;
         justify-content: center;
+      }
+
+      header {
+        background-size: cover;
+        background-position: left;
       }
 
     .banner {
@@ -60,6 +67,7 @@
         color: var(--cor1);
         width: 100%;
         text-align: center;
+        text-shadow: 0.5px 0.5px 1px white;
       }
 
       .infor span {
@@ -74,6 +82,7 @@
         padding: 10px;
         color: var(--cor1);
         font-size: 1.4em;
+        text-shadow: 0.5px 0.5px 1px white;
       }
 
       .botao {
@@ -98,7 +107,7 @@
     }
 
     .img img {
-        height: 150px;
+        height: 170px;
         width: 150px;
         border-radius: 50%;
     }
