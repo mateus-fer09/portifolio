@@ -19,6 +19,7 @@
 
     body {
         background-color: var(--cor2);
+        height: 2000px;
     }
 
     .sidenav {
@@ -28,7 +29,8 @@
         z-index: 1; 
         top: 0;
         left: 0;
-        background-color: #111;
+        background-color: rgba(17, 17, 17, 0.384);
+        backdrop-filter: blur(5px);
         overflow-x: hidden; 
         padding-top: 60px; 
         transition: 0.5s; 
@@ -38,30 +40,29 @@
       .sidenav a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        font-size: 1.2em;
+        font-size: 1.4em;
         color: white;
         display: block;
         transition: 0.3s;
+        text-align: center;
+      }
+
+      .sidenav h5 span {
+        color: white  ;
       }
 
       .sidenav h5 {
-        color: white;
+        color: #F21B2D;
         text-align: center;
         padding: 5px;
         margin-bottom: 15px;
-        background-image: linear-gradient(to top, var(--grad1), var(--grad2));
-        font-size: 1.4em;
+        font-size: 2.5em;
       }
 
       .sidenav #linha {
         background-color: var(--cor4);
         height: 2px;
         margin-bottom: 10px;
-      }
-
-      .sidenav h5:hover {
-        background-color: var(--cor1);
-        transition: 0.3s;
       }
 
       #icone-menu {
@@ -71,7 +72,7 @@
         margin: 20px 20px;
         cursor: pointer;
         position: absolute;
-        right: 15px;
+        right: 85px;
         border-radius: 10px;
         width: 50px;
         text-align: center;
@@ -113,9 +114,100 @@
       .container {
         margin: auto 60px;
         height: 100%;
+        display: flex;
+        justify-content: center;
       }
 
       .banner {
-        padding: 100px 25px;
+        padding: 25px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
 
+      .infor {
+        width: 500px;
+        height: 250px;
+      }
+
+      .infor h1 {
+        font-size: 3.5em;
+        padding: 10px;
+        color: var(--cor1);
+      }
+
+      .infor span {
+        padding: 10px;
+        color: white;
+        font-size: 2em;
+      }
+
+      .infor h3 {
+        padding: 10px;
+        color: var(--cor1);
+        font-size: 1.5em;
+      }
+
+      .botao {
+        padding: 10px;
+      }
+
+      .botao input {
+        padding: 10px;
+        background-color: var(--cor1);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 0.9em;
+      }
+
+      .botao input:hover {
+        background-color: #ff0015a6;
+      }
+
+      .img {
+        width: 300px;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .img img {
+        width: 300px;
+        height: 330px;
+        border-radius: 50%;
+      }
+
+      .sobre .container {
+        margin: auto 60px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .sobre .container .descrition {
+        margin-top: 20px;
+      }
+
+      .sobre .container h2 {
+        color: var(--cor4);
+        padding: 10px;
+      }
+
+      .sobre .container h3 {
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        color: red;
+      }
+
+      .sobre .container p {
+        width: 50%;
+        margin: auto;
+        color: white;
+        text-align: center;
+      }

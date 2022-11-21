@@ -17,4 +17,96 @@
         --grad1: #231F20;
         --grad2: #F41818;
     }
+
+    .sidenav {
+        background-color: rgb(17, 17, 17);
+    }
+
+    #icone-menu {
+        position: absolute;
+        right: 0;
+    }
+
+    .sidenav h5 {
+        font-size: 2em;
+        padding: 10px;
+    }
+
+    .container {
+        margin: auto 60px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 80px 10px 10px 10px;
+        width: 100%;
+    }
+
+    .infor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .infor h1 {
+        font-size: 2em;
+        padding: 10px;
+        color: var(--cor1);
+        width: 100%;
+        text-align: center;
+      }
+
+      .infor span {
+        padding: 10px;
+        color: white;
+        font-size: 1.6em;
+        width: 100%;
+        text-align: center;
+      }
+
+      .infor h3 {
+        padding: 10px;
+        color: var(--cor1);
+        font-size: 1.4em;
+      }
+
+      .botao {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+
+      .botao input {
+        padding: 10px;
+        background-color: var(--cor1);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+      }
+
+    .img {
+        background-color: transparent;
+    }
+
+    .img img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .sobre .container p {
+        width: 100%;
+        margin: auto;
+        color: white;
+        text-align: center;
+      }
 }
