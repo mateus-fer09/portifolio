@@ -21,7 +21,7 @@
 
     body {
         background-color: #16232B;
-        height: 2000px;
+        
     }
 
     .sidenav {
@@ -417,3 +417,94 @@
       .projetos .container .proj #prod #descricao p {
         color: white;
       }
+
+      .contato .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px 50px 0px;
+      }
+
+      .contato .container h2{
+        color: white;
+        padding: 10px;
+        font-family: var(--font-especial);
+        font-weight: bold;
+        font-size: 1.9em;
+        text-transform: uppercase;
+        border-bottom: solid 2px var(--cor1);
+        margin-top: 100px;
+        margin-bottom: 30px;
+      }
+
+      .contato .container .contat {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+
+      .contato .container .contat {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      .contato .container .contat #option {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius: 50%;
+        margin: 0px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .contato .container .contat #option h5 a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        font-size: 1.2em;
+      }
+
+      .contato .container .contat #option:hover {
+        width: 120px;
+        height: 120px;
+        transition: 0.3s;
+      }
+
+      footer {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      footer h4 {
+        padding: 10px;
+        color: black;
+      }
+
+      footer h4 span {
+        color: red;
+      }
+
+      footer h5 {
+        padding: 10px;
+      }
+
+      footer #link {
+        padding: 10px;
+        text-align: center;
+      }
+
+      footer a {
+        text-decoration: none;
+        color: var(--cor1);
+      }
+
+      
