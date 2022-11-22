@@ -31,6 +31,14 @@
         padding: 10px;
     }
 
+    .sidenav .closebtn {
+      position: absolute;
+      top: 9px;
+      right: 85px;
+      font-size: 2em;
+      margin-left: 50px;
+    }
+
     .sidenav h5 {
         font-size: 2em;
         padding: 10px;
