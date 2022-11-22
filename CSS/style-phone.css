@@ -123,4 +123,25 @@
         font-size: 1em;
         padding: 0px;
       }
+
+      .habilidades .hab #html {
+        width: 150px;
+        height: 150px;
+      }
+
+      .habilidades .hab #css {
+        width: 150px;
+        height: 150px;
+      }
+
+      .habilidades .hab #js {
+        width: 150px;
+        height: 150px;
+      }
+
+      .habilidades .container h4 {
+        text-align: justify;
+        font-size: 1em;
+        width: 100%;
+      }
 }
