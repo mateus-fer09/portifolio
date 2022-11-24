@@ -20,37 +20,6 @@
         --font-especial: 'Maven Pro', sans-serif;
     }
 
-    .sidenav {
-        background-color: rgb(17, 17, 17);
-    }
-
-    #icone-menu {
-        position: absolute;
-        right: 0;
-        font-weight: 300;
-        padding: 10px;
-    }
-
-    .sidenav .closebtn {
-      position: absolute;
-      top: 9px;
-      right: 85px;
-      font-size: 2em;
-      margin-left: 50px;
-    }
-
-    .sidenav h5 {
-        font-size: 2em;
-        padding: 10px;
-    }
-
-    .container {
-        margin: auto 60px;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-      }
-
       header {
         background-size: cover;
         background-position: left;
@@ -118,9 +87,16 @@
     }
 
     .img img {
-        height: 170px;
-        width: 150px;
+        height: 175px;
+        width: 155px;
         border-radius: 50%;
+    }
+
+    .img img:hover {
+      width: 150px;
+      height: 170px;
+      transition: 0.5s;
+      box-shadow: 1px 1px 30px #F41818;
     }
 
     .sobre .container p {
