@@ -103,6 +103,7 @@
         font-size: 1em;
         font-weight: bold;
         cursor: pointer;
+        width: 250px;
       }
 
       .botao input:hover {
@@ -189,7 +190,7 @@
 
       .habilidades .container {
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         align-items: center;
       }
 
@@ -234,10 +235,11 @@
         border-radius: 0px 20px;
         border-bottom: solid 5px #DD4B25;
         color: white;
+        cursor: pointer;
       }
 
       .habilidades .hab #html:hover {
-        padding: 20px;
+        padding: 5px;
         transition: 0.3s;
       }
 
@@ -257,10 +259,11 @@
         border-radius: 0px 20px;
         border-bottom: solid 5px #254BDD;
         color: white;
+        cursor: pointer;
       }
 
       .habilidades .hab #css:hover {
-        padding: 20px;
+        padding: 5px;
         transition: 0.3s;
       }
 
@@ -280,10 +283,11 @@
         border-radius: 0px 20px;
         border-bottom: solid 5px hsl(53, 87%, 53%);
         color: white;
+        cursor: pointer;
       }
 
       .habilidades .hab #js:hover {
-        padding: 20px;
+        padding: 5px;
         transition: 0.3s;
       }
 
