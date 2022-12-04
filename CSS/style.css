@@ -127,8 +127,7 @@
       }
 
       .img img:hover {
-        width: 310px;
-        height: 340px;
+        transform: scale(1.2);
         transition: 0.5s;
         box-shadow: 1px 1px 30px #F41818;
       }
@@ -239,7 +238,7 @@
       }
 
       .habilidades .hab #html:hover {
-        padding: 5px;
+        transform: scale(1.2);
         transition: 0.3s;
       }
 
@@ -263,7 +262,7 @@
       }
 
       .habilidades .hab #css:hover {
-        padding: 5px;
+        transform: scale(1.2);
         transition: 0.3s;
       }
 
@@ -287,7 +286,7 @@
       }
 
       .habilidades .hab #js:hover {
-        padding: 5px;
+        transform: scale(1.2);
         transition: 0.3s;
       }
 
@@ -432,8 +431,58 @@
       }
 
       .contato .container .contat #option:hover {
-        width: 120px;
-        height: 120px;
+        transform: scale(1.2);
+        transition: 0.3s;
+      }
+
+      .formulario {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: rgba(169, 169, 169, 0.158);
+        padding: 20px;
+        padding-bottom: 5px;
+        margin: 30px;
+        width: 500px;
+        border-radius: 12px;
+      }
+
+      .formulario h3 {
+        text-align: center;
+        color: white;
+        padding: 10px;
+        border-bottom: solid 2px red;
+      }
+
+      .formulario form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .formulario label {
+        padding: 10px 0px;
+        color: white;
+        margin-left: 5px;
+      }
+
+      .formulario form input {
+        border: none;
+        padding: 7px;
+        border-radius: 10px;
+      }
+
+      .formulario form #submit {
+        width: 200px;
+        margin: 20px auto;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .formulario form #submit:hover {
+        background-color: white;
+        color: red;
         transition: 0.3s;
       }
 
